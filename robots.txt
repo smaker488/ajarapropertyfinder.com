@@ -1,0 +1,13 @@
+# Adjara Property Finder — robots.txt
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow access to internal/system files
+Disallow: /CNAME
+Disallow: /.git/
+Disallow: /.github/
+
+# Sitemap location
+Sitemap: https://ajarapropertyfinder.com/sitemap.xml
